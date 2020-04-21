@@ -1,0 +1,21 @@
+{
+  "name": "node-auth1-project",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "server": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-session": "^1.17.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "knex": "^0.21.0",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.3",
+    "sqlite3": "^4.1.1"
+  }
+}
